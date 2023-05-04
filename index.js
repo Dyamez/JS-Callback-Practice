@@ -4,7 +4,9 @@ move(inventory).to(0, 0)
 
 const character = newImage('assets/green-character/static.gif')
 move(character).to(100, 250)
+
 */
+
 
 const inventory = newInventory()
 move(inventory).to(0, 0)
@@ -28,7 +30,7 @@ function handleDirectionChange(direction){
         character.src = 'assets/green-character/south.gif'
     }
 }
-
+/*
 move(character).withArrowKeys(100, 250, handleDirectionChange)
 
 
@@ -69,7 +71,7 @@ document.addEventListener('keydown', function(e){
 document.addEventListener('keyup', function(e){
     direction = null
 })
-
+*/
 
 
 move(newImage('assets/tree.png')).to(200, 450)
